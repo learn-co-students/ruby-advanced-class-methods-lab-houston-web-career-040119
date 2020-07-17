@@ -1,0 +1,18 @@
+
+[1mFrom:[0m /home/ubuntu/workspace/FLATIRON/objectOrientedRuby/ruby-advanced-class-methods-lab-houston-web-career-040119/lib/song.rb @ line 69 Song.create_from_filename:
+
+    [1;34m62[0m: [32mdef[0m [1;36mself[0m.[1;34mcreate_from_filename[0m(file_name)
+    [1;34m63[0m:   name_split = file_name.split([31m[1;31m"[0m[31m - [1;31m"[0m[31m[0m)
+    [1;34m64[0m:   artist = name_split[[1;34m0[0m]
+    [1;34m65[0m:   song_name = name_split[[1;34m1[0m].gsub([31m[1;31m"[0m[31m.mp3[1;31m"[0m[31m[0m,[31m[1;31m"[0m[31m[1;31m"[0m[31m[0m)
+    [1;34m66[0m: 
+    [1;34m67[0m:   song = [1;36mself[0m.find_or_create_by_name(song_name)
+    [1;34m68[0m:   
+ => [1;34m69[0m:   binding.pry
+    [1;34m70[0m:   
+    [1;34m71[0m:   song
+    [1;34m72[0m:   
+    [1;34m73[0m:   
+    [1;34m74[0m:   
+    [1;34m75[0m: [32mend[0m
+
